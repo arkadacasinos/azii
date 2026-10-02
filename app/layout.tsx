@@ -63,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${oswald.variable} ${inter.variable}`}>
       <head>
-        {/* Дополнительные пользовательские теги */}
+       <meta name="yandex-verification" content="206cf4debc99d895" />
       </head>
       <body className="bg-background text-foreground font-sans antialiased">
         {children}
