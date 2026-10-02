@@ -1,7 +1,11 @@
 pmOnFail: ignore
 
+strictDepBuilds: false
+
 minimumReleaseAgeExclude:
   - '@next/*'
   - next
+
 allowBuilds:
   tesseract.js: true
+  tesseract.js-core: true
