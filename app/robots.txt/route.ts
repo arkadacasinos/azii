@@ -1,6 +1,6 @@
 export function GET() {
   const body = `User-agent: *
-Allow: /
+Disallow: / 
 Sitemap: https://azino777go.vercel.app/sitemap.xml
 `
 
